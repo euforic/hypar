@@ -7,23 +7,23 @@
 ## Installation
 
 ```
-$ npm install hypra
+$ npm install hypar
 ```
 
 ## Hypra
 
 ```js
-var parser = Hypra();
+var parser = Hypar();
 ```
 
-## write
+## hypar#write
 
 ```js
 // write to parser
 parser.write('<div id='test'></div>');
 ```
 
-## pipe
+## hypar#pipe
 
 ```js
 // pipe output to standard out
