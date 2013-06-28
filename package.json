@@ -1,0 +1,14 @@
+{
+  "name": "hypar",
+  "version": "0.0.1",
+  "description": "Hyper Speed Streaming HTML Parser / Mutator",
+  "keywords": [],
+  "author": "Christian Sullivan <cs@euforic.co>",
+  "repository": { "type": "git", "url": "git://github.com/euforic/hypar.git" },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
