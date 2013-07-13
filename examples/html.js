@@ -13,8 +13,8 @@ parser._onopentag = function (e) {
   ((tags[e.name]) || (tags[e.name] = [])).push(e);
 
   var elType = e.name.charAt(0).toUpperCase() + e.name.substr(1).toLowerCase();
-  var elID = (e.attributes.ID || ('' + elType + (tags[e.name].length)));
-  var elAttrs = JSON.stringify(e.attributes).toLowerCase();
+  var elID = (e.attr.ID || ('' + elType + (tags[e.name].length)));
+  var elAttrs = JSON.stringify(e.attr).toLowerCase();
 
   var output = '' +
     'var ' + elID + ' = UI.'+ elType + '(' + elAttrs + ');\n' +
