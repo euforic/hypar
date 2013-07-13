@@ -1,6 +1,6 @@
 {
   "name": "hypar",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Hyper Speed Streaming HTML Parser / Mutator",
   "keywords": [],
   "author": "Christian Sullivan <cs@euforic.co>",
