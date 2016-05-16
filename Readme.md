@@ -1,8 +1,9 @@
-
 # hypar
 
+**No Longer Maintained**
+
+
   Hyper Speed Streaming HTML Parser / Mutator
-  (work in progress)
 
 ## Installation
 
